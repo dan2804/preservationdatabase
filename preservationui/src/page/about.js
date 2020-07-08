@@ -18,9 +18,9 @@ export class About extends React.Component {
 
   render() {
     return (
-      <Page actionBar={this.renderBreadcrumbs()} title='About'>
-        <Panel title='The Team'>
-          Lorem Ipsum
+      <Page actionBar={this.renderBreadcrumbs()} title='Artists'>
+        <Panel>
+          Artists and profile pictures need to be put here
         </Panel>
       </Page>
     );
