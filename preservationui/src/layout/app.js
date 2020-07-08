@@ -89,10 +89,17 @@ class AppLayout extends React.Component {
               {React.cloneElement(this.props.children, _.assign({}, this.props, { user: this.state.user }))}
             </div>
           </div>
-          
+
           <footer className="al-footer clearfix">
+            <div className="al-footer-right">Created with <i className="ion-heart"></i></div>
             <div className="al-footer-main clearfix">
-              <div className="al-copy">Copyright 2020 Daniel Arif & Michael Barry</div>
+              <div className="al-copy">React Webpack Skeleton</div>
+              <ul className="al-share clearfix">
+                <li><i className="socicon socicon-facebook"></i></li>
+                <li><i className="socicon socicon-twitter"></i></li>
+                <li><i className="socicon socicon-google"></i></li>
+                <li><i className="socicon socicon-github"></i></li>
+              </ul>
             </div>
           </footer>
 

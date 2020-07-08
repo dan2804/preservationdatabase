@@ -14,7 +14,7 @@ export class Sidebar extends React.Component {
   state = {
     navItems: [
       { pathname: '/', label: 'Home', icon: 'home' },
-      { pathname: '/about', label: 'Artists', icon: 'info' },
+      { pathname: '/about', label: 'About', icon: 'info' },
       { pathname: '/table-demo', label: 'Tables', icon: 'table' },
       { pathname: '/button-demo', label: 'Buttons', icon: 'dot-circle-o' },
       { pathname: '/progress-bars', label: 'Progress Bars', icon: 'spinner'},

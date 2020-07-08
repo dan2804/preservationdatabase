@@ -3,6 +3,7 @@ import { Link } from 'react-router';
 import moment from 'moment';
 import { noop } from 'lodash';
 import Person from 'react-blur-admin/dist/assets/img/person.svg';
+import Logo from 'src/images/umg-on-blk-bg.svg';
 
 import {SearchBar} from 'src/layout/components/search-bar';
 
@@ -118,7 +119,7 @@ export class PageTop extends React.Component {
 
   renderLogo() {
     return (
-      <Link to={{ pathname: 'public/logo192.png' }} className="al-logo clearfix">{this.state.appName}</Link>
+      <img src={Logo} className="al-logo clearfix"> {this.state.appName}</img>
     );
   }
 
