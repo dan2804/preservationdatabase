@@ -11,7 +11,7 @@ export class Welcome extends React.Component {
         <Row>
           <Col padding={5}>
             <Panel>
-              This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph.
+              This page needs to show what the latest projects are.
             </Panel>
           </Col>
           <Col padding={5}>

@@ -11,7 +11,7 @@ export class About extends React.Component {
         <Link to='/'>
           Home
         </Link>
-          About
+          Artists
       </Breadcrumbs>
     );
   }

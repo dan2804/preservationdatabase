@@ -6,7 +6,7 @@ import Login from 'src/layout/login';
 
 /* Demos */
 import { Welcome } from 'src/page/welcome';
-import { About } from 'src/page/about';
+import { About } from 'src/page/artists';
 import { ProgressBars } from 'src/page/progress-bars';
 import { TableDemo } from 'src/page/table-demo';
 import { ButtonDemo } from 'src/page/button-demo';
@@ -27,7 +27,7 @@ export const AppRouter = (
     <Route path='/login' component={Login} />
     <Route component={AppLayout}>
       <Route path='/' component={Welcome} />
-      <Route path='/about' component={About} />
+      <Route path='/artists' component={About} />
       <Route path='/progress-bars' component={ProgressBars} />
       <Route path='/button-demo' component={ButtonDemo} />
       <Route path='/modal-demo' component={ModalDemo} />

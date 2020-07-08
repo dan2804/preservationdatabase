@@ -16,7 +16,7 @@ const suggestionExamples = [
     text: 'Tables',
   },
   {
-    text: 'About',
+    text: 'Artists',
   },
   {
     text: 'Inputs',

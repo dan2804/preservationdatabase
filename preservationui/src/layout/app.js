@@ -91,7 +91,6 @@ class AppLayout extends React.Component {
           </div>
 
           <footer className="al-footer clearfix">
-            <div className="al-footer-right">Created with <i className="ion-heart"></i></div>
             <div className="al-footer-main clearfix">
               <div className="al-copy">Copyright 2020 Daniel Arif and Michael Barry</div>
             </div>

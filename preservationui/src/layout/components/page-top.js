@@ -119,7 +119,9 @@ export class PageTop extends React.Component {
 
   renderLogo() {
     return (
-      <div className="al-logo left"><img src={Logo} className="al-logo clearfix"> {this.state.appName}</img></div>
+      <Link to="/">
+        <img src={Logo} className="al-logo clearfix"> {this.state.appName} </img>
+      </Link>
     );
   }
 
