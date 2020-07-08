@@ -1,0 +1,29 @@
+{
+  "name": "preservationdatabase",
+  "version": "1.0.0",
+  "description": "ARGGGGGG",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd preservationui && yarn start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "concurrently": "^4.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dan2804/preservationdatabase.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dan2804/preservationdatabase/issues"
+  },
+  "homepage": "https://github.com/dan2804/preservationdatabase#readme"
+}
