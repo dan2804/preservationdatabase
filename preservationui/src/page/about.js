@@ -20,7 +20,8 @@ export class About extends React.Component {
     return (
       <Page actionBar={this.renderBreadcrumbs()} title='About'>
         <Panel title='The Team'>
-          Lorem Ipsum
+          Daniel Arif
+          Michael Barry
         </Panel>
       </Page>
     );
