@@ -6,7 +6,7 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    var element = React.createElement('h1', { className: 'greeting' }, 'Hello, world!');
   </React.StrictMode>,
   document.getElementById('root')
 );
