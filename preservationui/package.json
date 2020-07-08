@@ -3,6 +3,7 @@
   "version": "1.0.2",
   "description": "React Webpack Skeleton",
   "main": "index.js",
+  "proxy": "http://localhost:5000/",
   "scripts": {
     "clean": "rimraf dist",
     "build:webpack": "NODE_ENV=production webpack --config webpack.config.prod.js",
