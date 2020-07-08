@@ -4,6 +4,8 @@
   "description": "ARGGGGGG",
   "main": "index.js",
   "scripts": {
+    "start": "node server.js",
+    "heroku-postbuild": "cd preservationui && npm install && npm install --only=dev --no-shrinkwrap && npm run build",
     "client": "cd preservationui && yarn start",
     "server": "nodemon server.js",
     "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
