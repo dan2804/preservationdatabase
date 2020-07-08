@@ -4,7 +4,6 @@
   "description": "ARGGGGGG",
   "main": "index.js",
   "scripts": {
-    "scripts": {
     "client": "cd preservationui && yarn start",
     "server": "nodemon server.js",
     "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
