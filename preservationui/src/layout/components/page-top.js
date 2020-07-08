@@ -118,7 +118,7 @@ export class PageTop extends React.Component {
 
   renderLogo() {
     return (
-      <Link to={{ pathname: '/' }} className="al-logo clearfix">{this.state.appName}</Link>
+      <Link to={{ pathname: 'public/logo192.png' }} className="al-logo clearfix">{this.state.appName}</Link>
     );
   }
 
