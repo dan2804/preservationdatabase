@@ -41,8 +41,8 @@ export class TableDemo extends React.Component {
           <h5>When mousing over table rows will respond</h5>
           <Table>
             <TableHead>
-              <th>Browser</th>
-              <th>Visits</th>
+              <th>Album</th>
+              <th>Barcode</th>
               <th>Purchases</th>
               <th>%</th>
             </TableHead>

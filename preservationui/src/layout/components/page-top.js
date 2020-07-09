@@ -79,24 +79,6 @@ export class PageTop extends React.Component {
         timeStamp: '05/01/16 4:00',
         relativeTime: moment('05/01/16 4:00').fromNow(),
       }],
-      messages: [{
-        user: {
-          name: 'Ashley',
-          picture: Person,
-        },
-        subject: 'This is a message alert',
-        timeStamp: '02/13/95 9:00',
-        relativeTime: moment('02/13/16').fromNow(),
-      },
-      {
-        user: {
-          name: 'Nick',
-          picture: Person,
-        },
-        subject: 'This is a message alert',
-        timeStamp: '07/13/16 12:00',
-        relativeTime: moment('07/13/16 12:00').fromNow(),
-      }],
     };
   }
 
@@ -120,7 +102,9 @@ export class PageTop extends React.Component {
   renderLogo() {
     return (
       <Link to="/">
-        <img src={Logo} className="al-logo clearfix"> {this.state.appName} </img>
+        <div classname="al-logo left">
+          <img src={Logo} className="al-logo left"> {this.state.appName} </img>
+        </div>
       </Link>
     );
   }
@@ -140,15 +124,6 @@ export class PageTop extends React.Component {
         <SearchBar />
       </div>
     );
-  }
-
-  renderMessages() {
-    let message = _.assign({}, this.state.messages);
-    return _.map(message, (messages, index) => {
-      return (
-        <MessagesAlert {...messages} key={index}/>
-      );
-    });
   }
 
   renderNotifications() {
@@ -180,9 +155,6 @@ export class PageTop extends React.Component {
         </div>
         <Row>
           <Col padding='5px 2px'>
-            <MessagesAlertContainer mailCount={this.state.messages.length} markAllAsReadOnClick={noop} allMessagesOnClick={noop} settingsOnClick={noop} >
-              {this.renderMessages()}
-            </MessagesAlertContainer>
             <NotificationsAlert
               notificationCount={this.state.notifications.length}
               markAllAsReadOnClick={noop}
