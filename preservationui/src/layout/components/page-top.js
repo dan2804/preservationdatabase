@@ -30,54 +30,9 @@ export class PageTop extends React.Component {
           name: 'Ashley',
           picture: Person,
         },
-        subject: 'This is a notification alert',
+        subject: 'This needs to display updates of any changes made',
         timeStamp: '02/13/95 9:00',
-        relativeTime: moment('02/13/95').fromNow(),
-      },
-      {
-        user: {
-          name: 'Nick',
-          picture: Person,
-        },
-        subject: 'This is a notification alert',
-        timeStamp: '07/13/16 12:00',
-        relativeTime: moment('07/13/16 12:00').fromNow(),
-      },
-      {
-        user: {
-          name: 'Matt',
-          picture: Person,
-        },
-        subject: 'This is a notification alert',
-        timeStamp: '04/20/15 9:00',
-        relativeTime: moment('04/20/15 9:00').fromNow(),
-      },
-      {
-        user: {
-          name: 'Jon',
-          picture: Person,
-        },
-        subject: 'This is a notification alert',
-        timeStamp: '07/19/16 8:00',
-        relativeTime: moment('07/19/16 8:00').fromNow(),
-      },
-      {
-        user: {
-          name: 'Jacob',
-          picture: Person,
-        },
-        subject: 'This is a notification alert',
-        timeStamp: '05/23/16 2:00',
-        relativeTime: moment('05/23/16 2:00').fromNow(),
-      },
-      {
-        user: {
-          name: 'Jason',
-          picture: Person,
-        },
-        subject: 'This is a notification alert',
-        timeStamp: '05/01/16 4:00',
-        relativeTime: moment('05/01/16 4:00').fromNow(),
+        relativeTime: moment('09/07/2020').fromNow(),
       }],
     };
   }
@@ -101,17 +56,16 @@ export class PageTop extends React.Component {
 
   renderLogo() {
     return (
-      <Link to="/">
-        <div classname="al-logo left">
-          <img src={Logo} className="al-logo left"> {this.state.appName} </img>
-        </div>
-      </Link>
+      <div style={{display: 'flex', justifyContent: 'left'}}>
+        <Link to="/">
+          <img src={Logo}></img>
+        </Link>
+      </div>
     );
   }
 
   renderHamburgerMenu() {
     return null;
-
     // @todo
     // return (
     //   <a href className="collapse-menu-link ion-navicon" ng-click="isMenuCollapsed=!isMenuCollapsed"></a>
@@ -137,7 +91,7 @@ export class PageTop extends React.Component {
 
   renderUserSection() {
     return (
-      <div className="user-profile clearfix">
+      <div className="user-profile centered">
         <div className={`al-user-profile dropdown ${this.state.isMenuOpen ? 'open' : ''}`}>
           <a className="profile-toggle-link dropdown-toggle" onClick={this.onToggleMenu.bind(this)}>
             <img src={this.props.user && this.props.user.picture ? this.props.user.picture : Person}/>
@@ -160,7 +114,7 @@ export class PageTop extends React.Component {
               markAllAsReadOnClick={noop}
               allNotificationsOnClick={noop}
               settingsOnClick={noop} >
-                {this.renderNotifications()}
+              {this.renderNotifications()}
             </NotificationsAlert>
           </Col>
         </Row>
