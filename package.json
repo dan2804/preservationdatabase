@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "start": "node server.js",
-    "heroku-postbuild": "cd preservationui && yarn dev",
+    "heroku-postbuild": "cd preservationui && yarn start",
     "client": "cd preservationui && yarn start",
     "server": "nodemon server.js",
     "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
