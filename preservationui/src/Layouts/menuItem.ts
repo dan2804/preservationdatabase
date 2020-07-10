@@ -8,7 +8,6 @@ const items: MenuItemType[] = [
   },
   {
     title: 'Artists',
-    icon: { name: 'artists' },
     link: { to: '/artists' },
   },
   {
