@@ -1,8 +1,8 @@
 {
-  "name": "preservationdatabase",
-  "version": "1.0.0",
-  "description": "ARGGGGGG",
-  "main": "index.js",
+  "name": "preseverationdatabase",
+  "version": "1.22.4",
+  "description": "Dan's Abbey Road Stuff",
+  "main": "index.html",
   "scripts": {
     "start": "node server.js",
     "heroku-postbuild": "cd preservationui && yarn dev",
@@ -55,15 +55,8 @@
     "react-live": "2.2.2",
     "typescript": "3.9.5"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dan2804/preservationdatabase.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dan2804/preservationdatabase/issues"
-  },
-  "homepage": "https://github.com/dan2804/preservationdatabase#readme"
+  "repository": "https://github.com/dan2804/preservationdatabase.git",
+  "author": "michael <michaelbarry564@gmail.com>",
+  "license": "MIT",
+  "private": false
 }
