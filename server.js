@@ -14,6 +14,6 @@ app.get('/api/hello', (req, res) => {
   // Serve any static files
   app.use(express.static(path.join(__dirname, 'preservationui/')));  // Handle React routing, return all requests to React app
   app.get('*', function(req, res) {
-    res.sendFile(path.join(__dirname, 'preservationui/src/pages', 'dashboard.tsx'));
+    res.sendFile(path.join(__dirname, 'preservationui/src/pages', 'index.html'));
   });
 }app.listen(port, () => console.log(`Listening on port ${port}`));
