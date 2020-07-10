@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-admin-template",
+  "name": "umg-preservation-database",
   "private": true,
   "description": "Admin dashboard template based on Gatsby with @paljs/ui component package",
   "version": "0.1.0",
-  "author": "Ahmed Elywa",
+  "author": "Daniel Arif & Michael Barry",
   "dependencies": {
     "@ckeditor/ckeditor5-build-classic": "20.0.0",
     "@ckeditor/ckeditor5-react": "2.1.0",
