@@ -4,12 +4,18 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
-  <children>
-    <TextField fx:id="usernameField" layoutX="182.0" layoutY="125.0" AnchorPane.bottomAnchor="236.0" AnchorPane.leftAnchor="182.0" AnchorPane.rightAnchor="194.0" AnchorPane.topAnchor="125.0" />
-    <TextField fx:id="passwordField" layoutX="182.0" layoutY="200.0" AnchorPane.bottomAnchor="161.0" AnchorPane.leftAnchor="182.0" AnchorPane.rightAnchor="194.0" AnchorPane.topAnchor="200.0" />
-    <Label layoutX="182.0" layoutY="173.0" text="Password" AnchorPane.bottomAnchor="200.0" AnchorPane.leftAnchor="182.0" AnchorPane.rightAnchor="343.0" AnchorPane.topAnchor="173.0" />
-    <Label layoutX="180.0" layoutY="98.0" text="Username" AnchorPane.bottomAnchor="275.0" AnchorPane.leftAnchor="180.0" AnchorPane.rightAnchor="340.0" AnchorPane.topAnchor="98.0" />
-      <Button fx:id="loginBtn" layoutX="255.0" layoutY="251.0" mnemonicParsing="false" text="Login" AnchorPane.bottomAnchor="110.0" AnchorPane.leftAnchor="255.0" AnchorPane.rightAnchor="267.0" AnchorPane.topAnchor="251.0" />
-  </children>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+  prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8"
+  xmlns:fx="http://javafx.com/fxml/1">
+  <TextField fx:id="usernameField" layoutX="182.0" layoutY="125.0" AnchorPane.bottomAnchor="236.0"
+    AnchorPane.leftAnchor="182.0" AnchorPane.rightAnchor="194.0" AnchorPane.topAnchor="125.0"/>
+  <TextField fx:id="passwordField" layoutX="182.0" layoutY="200.0" AnchorPane.bottomAnchor="161.0"
+    AnchorPane.leftAnchor="182.0" AnchorPane.rightAnchor="194.0" AnchorPane.topAnchor="200.0"/>
+  <Label layoutX="182.0" layoutY="173.0" text="Password" AnchorPane.bottomAnchor="200.0"
+    AnchorPane.leftAnchor="182.0" AnchorPane.rightAnchor="343.0" AnchorPane.topAnchor="173.0"/>
+  <Label layoutX="180.0" layoutY="98.0" text="Username" AnchorPane.bottomAnchor="275.0"
+    AnchorPane.leftAnchor="180.0" AnchorPane.rightAnchor="340.0" AnchorPane.topAnchor="98.0"/>
+  <Button fx:id="loginBtn" layoutX="255.0" layoutY="251.0" mnemonicParsing="false" text="Login"
+    AnchorPane.bottomAnchor="110.0" AnchorPane.leftAnchor="255.0" AnchorPane.rightAnchor="267.0"
+    AnchorPane.topAnchor="251.0"/>
 </AnchorPane>
