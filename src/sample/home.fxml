@@ -39,7 +39,7 @@
                   <Insets top="7.0" />
                </padding>
             </Label>
-            <TextField fx:id="searchTxtField" prefHeight="39.0" prefWidth="199.0" />
+            <TextField fx:id="searchTxtField" onKeyTyped="#search" prefHeight="39.0" prefWidth="199.0" />
             <ImageView fitHeight="38.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true" />
             <ImageView fitHeight="111.0" fitWidth="125.0" preserveRatio="true">
                <image>
