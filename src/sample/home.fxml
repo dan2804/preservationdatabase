@@ -11,7 +11,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.HomeController">
    <top>
       <HBox>
          <children>
@@ -43,7 +43,7 @@
             <ImageView fitHeight="38.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true" />
             <ImageView fitHeight="111.0" fitWidth="125.0" preserveRatio="true">
                <image>
-                  <Image url="@../../../Documents/umg.png" />
+                  <Image url="@umg.png" />
                </image>
                <effect>
                   <ColorAdjust contrast="-0.6" />
