@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <HBox>
+         <children>
+            <MenuBar BorderPane.alignment="CENTER">
+              <menus>
+                <Menu mnemonicParsing="false" text="File">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Close" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Edit">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Delete" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="About" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+            <Label alignment="CENTER" contentDisplay="CENTER" text="Search:">
+               <padding>
+                  <Insets top="7.0" />
+               </padding>
+            </Label>
+            <TextField fx:id="searchTxtField" prefHeight="39.0" prefWidth="199.0" />
+            <ImageView fitHeight="38.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="111.0" fitWidth="125.0" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Documents/umg.png" />
+               </image>
+               <effect>
+                  <ColorAdjust contrast="-0.6" />
+               </effect>
+            </ImageView>
+         </children>
+      </HBox>
+   </top>
+</BorderPane>
